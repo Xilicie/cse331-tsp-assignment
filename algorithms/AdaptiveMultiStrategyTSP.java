@@ -213,9 +213,8 @@ public class AdaptiveMultiStrategyTSP {
     }
 
 
-    // Test method
+    // Testing
     public static void main(String[] args) {
-        // Same test case as before
         double[][] testDistances = {
             {0, 2, 9, 10},
             {2, 0, 6, 4},
