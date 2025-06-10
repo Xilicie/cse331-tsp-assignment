@@ -184,10 +184,8 @@ public class TSP_MST {
         return totalCost;
     }
 
-
-    // test method
+// testing
     public static void main(String[] args) {
-        // test case 1: 
         double[][] testDistances = {
             {0, 2, 9, 10},
             {2, 0, 6, 4},
@@ -203,7 +201,6 @@ public class TSP_MST {
             System.out.println("City " + i + " parent: " + mst[i]);
         }
 
-        // Expected output should show connections forming a tree
         System.out.println("\nExpected MST edges:");
         System.out.println("0-1 (cost 2), 1-3 (cost 4), 3-2 (cost 5)");
         System.out.println("Total MST cost should be: 11");
